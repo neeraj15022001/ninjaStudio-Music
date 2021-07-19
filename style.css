@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --themeColor:#2A2747;
+    --themeGlass:#3a3661;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: var(--themeColor);
+    color: white;
+}
+/* Navbar */
+.page__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.page__nav__brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.page__nav__profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand > span {
+    text-transform: capitalize;
+}
+.links > a {
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+    margin-left: 2rem;
+}
+.search {
+    background-color: var(--themeGlass);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+}
+.search > input[type="text"] {
+    border: none;
+    background-color: transparent;
+}
+.notification {
+    margin-right: 1rem;
+}
+.profile {
+    background-color: white;
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+}
+
+/* Body  */
+section.page__body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+aside.page__sidebar {
+    width:25%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 5rem;
+    overflow: auto;
+    padding: 1rem;
+}
+
+section.page__content {
+    width: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 5rem;
+    left:0;
+    padding: 2rem;
+    overflow: auto;
+}
+footer.page__player {
+    height: 5rem;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+/* Carousel */
+div.slide__1 {
+    background-image: url('https://lyriquediscorde.files.wordpress.com/2017/04/nr-1.jpg?w=500&h=313');
+    height:300px;
+}

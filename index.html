@@ -5,17 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ninja Studio</title>
+    <meta name="theme-color" content="#2A2747" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
   </head>
   <body>
     <script src="./main.js"></script>
-
-    <nav>
-      <div class="brand"></div>
-      <div class="links"></div>
-      <div class="search"></div>
-      <div class="notification"></div>
-      <div class="profile"></div>
+    <!-- Navbar -->
+    <nav class="page__nav">
+      <div class="page__nav__brand">
+        <div class="brand">
+          <img src="./images/music-cd.png" alt="music-cd" width="50" />
+          <span>ninja<br />studio</span>
+        </div>
+        <div class="links">
+          <a href="#favorites">favorites</a>
+        </div>
+      </div>
+      <div class="page__nav__profile">
+        <div class="search">
+          <i class="bi bi-search"></i>
+          <input type="text" name="searchbar" placeholder="Search" />
+          <i class="bi bi-mic"></i>
+        </div>
+        <div class="notification">
+          <i class="bi bi-bell-fill"></i>
+        </div>
+        <div class="profile"></div>
+      </div>
     </nav>
+
+    <!-- Body -->
+    <section class="page__body">
+      <!-- Queue Sidebar -->
+      <aside class="page__sidebar">
+        <p>Queue</p>
+      </aside>
+      <section class="page__content">
+        <!-- Carousel Section -->
+        <section>
+          <div class="slide__1"></div>
+        </section>
+      </section>
+      <footer class="page__player">
+        
+      </footer>
+    </section>
   </body>
 </html>
