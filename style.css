@@ -372,10 +372,7 @@ footer.page__player {
 .player__like__dislike {
   margin: 0 1rem;
 }
-
-<<<<<<< HEAD .middle__section {
-}
-=======>>>>>>>8227e2b (added playlist section) .middle__upper {
+.middle__upper {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
