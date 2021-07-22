@@ -83,7 +83,7 @@ aside.page__sidebar {
   right: 0;
   bottom: 5rem;
   overflow: auto;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 .page__sidebar__topbar {
   display: flex;
@@ -325,6 +325,44 @@ div.music__categories {
   font-weight: bold;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Latest English */
+div.latest__english { 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+}
+.latest__english__song {
+  margin-right: 1rem;
+}
+.onism {
+  background: url('https://onezeropresents.com/wp-content/uploads/2020/01/Them-Are-They-Onism-Album-Cover-1024x1024.jpg');
+}
+.onism-2 {
+  background: url('https://i.scdn.co/image/ab67616d0000b27348753839c4fcf75124c7aab8');
+}
+.onism-3 {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBApeqkNLe9PwSGLeQrVxXD0uDxri3yPvnYQ&usqp=CAU');
+}
+.onism-4 {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOVwnjjQHmitP5MRy7ykdevhXcA6pnktysg&usqp=CAU');
+}
+.track__cover {
+  min-width: 10rem;
+  min-height: 10rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.track__details {
+  text-transform: capitalize;
+}
+.track__details__release {
+  font-size: small;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: silver;
 }
 
 /* Music Player */
