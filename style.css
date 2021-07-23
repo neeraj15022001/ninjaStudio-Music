@@ -333,6 +333,7 @@ div.latest__english {
   align-items: center;
   justify-content: flex-start;
   overflow: auto;
+  margin-bottom: 1.5rem;
 }
 .latest__english__song {
   margin-right: 1rem;
@@ -349,6 +350,9 @@ div.latest__english {
 .onism-4 {
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOVwnjjQHmitP5MRy7ykdevhXcA6pnktysg&usqp=CAU");
 }
+.raazi {
+  background: url('https://ahummingheart.com/wp-content/uploads/2018/12/Raazi.png');
+}
 .track__cover {
   min-width: 10rem;
   min-height: 10rem;
@@ -364,7 +368,16 @@ div.latest__english {
   letter-spacing: 2px;
   color: silver;
 }
-
+/* Latest Hindi */
+div.latest__hindi {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+}
+.latest__hindi__song {
+  margin-right: 1rem;
+}
 /* Music Player */
 footer.page__player {
   height: 5rem;
