@@ -423,10 +423,24 @@ footer.page__player {
 .player__like__dislike {
   margin: 0 1rem;
 }
+.middle__section {
+  align-self: stretch;
+  flex-grow: 2;
+  padding: 0 3rem;
+}
 .middle__upper {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.middle__lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle__lower > input {
+  width: 100%;
+  margin: 0 1rem;
 }
 .play__button {
   font-size: x-large;
