@@ -3,6 +3,7 @@
   --themeColor: #2a2747;
   --themeGlass: #3a3661;
   --themeDarkBg: #1e1b33;
+  --themeGray : #383737;
 }
 * {
   margin: 0;
@@ -74,19 +75,71 @@ section.page__body {
   overflow: hidden;
 }
 
+/* Sidebar */
 aside.page__sidebar {
-  width: 25%;
-  background-color: black;
+  width: 30%;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 5rem;
   overflow: auto;
-  padding: 1rem;
+  padding: 0.5rem;
+}
+.page__sidebar__topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.sidebar__title {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
+.sidebar__dropdown {
+  font-size: small;
+  color: cyan;
+}
+.queue__songs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.queue__songs__left {
+  display: flex;
+  align-items: center;
+}
+.queue__songs__left > span {
+  font-size: 0.8rem;
+  color: silver;
+  margin-right: 0.5rem;
+}
+.queue__songs__avatar {
+  width:2.5rem;
+  height:2.5rem;
+  background-color: black;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.queue__songs__songs__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.queue__songs__songs__details__track {
+  text-transform: capitalize;
+}
+.queue__songs__songs__details__artist {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: silver;
+}
+/* Page Content */
 section.page__content {
-  width: 75%;
+  width: 70%;
   position: absolute;
   top: 0;
   bottom: 5rem;
@@ -94,14 +147,7 @@ section.page__content {
   padding: 2rem;
   overflow: auto;
 }
-footer.page__player {
-  height: 5rem;
-  background-color: aqua;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
+
 /* Carousel */
 section.page__carousel {
   padding: 2rem 0px;
@@ -248,4 +294,72 @@ div.music__categories {
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
+}
+
+/* Playlist Section */
+
+/* Music Player */
+footer.page__player {
+    height: 5rem;
+    background-color: var(--themeGray);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.left__section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-transform: capitalize;
+}
+.player__current__track {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: black;
+  margin-right: 0.5rem;
+}
+.player__current__track__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.player__current__track__details__track {
+  font-size:0.8rem;
+}
+.player__current__track__details__track > marquee {
+  width: 4rem;
+}
+.player__current__track__details__artist {
+  font-size:0.7rem;
+  font-weight: lighter;
+  color: silver;
+}
+.player__like__dislike {
+  margin: 0 1rem;
+}
+
+.middle__section {
+
+}
+.middle__upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.play__button {
+  font-size: x-large;
+}
+.right__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right__icon {
+  margin:0.3rem;
 }
