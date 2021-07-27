@@ -3,7 +3,7 @@
   --themeColor: #2a2747;
   --themeGlass: #3a3661;
   --themeDarkBg: #1e1b33;
-  --themeGray : #383737;
+  --themeGray: #383737;
 }
 * {
   margin: 0;
@@ -116,8 +116,8 @@ aside.page__sidebar {
   margin-right: 0.5rem;
 }
 .queue__songs__avatar {
-  width:2.5rem;
-  height:2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: black;
   border-radius: 5px;
   margin-right: 1rem;
@@ -300,16 +300,16 @@ div.music__categories {
 
 /* Music Player */
 footer.page__player {
-    height: 5rem;
-    background-color: var(--themeGray);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+  height: 5rem;
+  background-color: var(--themeGray);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
 }
 .left__section {
   display: flex;
@@ -330,13 +330,13 @@ footer.page__player {
   justify-content: center;
 }
 .player__current__track__details__track {
-  font-size:0.8rem;
+  font-size: 0.8rem;
 }
 .player__current__track__details__track > marquee {
   width: 4rem;
 }
 .player__current__track__details__artist {
-  font-size:0.7rem;
+  font-size: 0.7rem;
   font-weight: lighter;
   color: silver;
 }
@@ -345,7 +345,6 @@ footer.page__player {
 }
 
 .middle__section {
-
 }
 .middle__upper {
   display: flex;
@@ -361,5 +360,5 @@ footer.page__player {
   justify-content: center;
 }
 .right__icon {
-  margin:0.3rem;
+  margin: 0.3rem;
 }
