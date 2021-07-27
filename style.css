@@ -328,7 +328,7 @@ div.music__categories {
 }
 
 /* Latest English */
-div.latest__english { 
+div.latest__english {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -338,16 +338,16 @@ div.latest__english {
   margin-right: 1rem;
 }
 .onism {
-  background: url('https://onezeropresents.com/wp-content/uploads/2020/01/Them-Are-They-Onism-Album-Cover-1024x1024.jpg');
+  background: url("https://onezeropresents.com/wp-content/uploads/2020/01/Them-Are-They-Onism-Album-Cover-1024x1024.jpg");
 }
 .onism-2 {
-  background: url('https://i.scdn.co/image/ab67616d0000b27348753839c4fcf75124c7aab8');
+  background: url("https://i.scdn.co/image/ab67616d0000b27348753839c4fcf75124c7aab8");
 }
 .onism-3 {
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBApeqkNLe9PwSGLeQrVxXD0uDxri3yPvnYQ&usqp=CAU');
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBApeqkNLe9PwSGLeQrVxXD0uDxri3yPvnYQ&usqp=CAU");
 }
 .onism-4 {
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOVwnjjQHmitP5MRy7ykdevhXcA6pnktysg&usqp=CAU');
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOVwnjjQHmitP5MRy7ykdevhXcA6pnktysg&usqp=CAU");
 }
 .track__cover {
   min-width: 10rem;
