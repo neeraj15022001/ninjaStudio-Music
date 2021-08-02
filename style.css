@@ -118,13 +118,13 @@ aside.page__sidebar {
   margin-right: 0.5rem;
 }
 .queue__1 {
-  background: url('./images/Images/queue-1.jpeg');
+  background: url("./images/Images/queue-1.jpeg");
 }
 .queue__2 {
-  background: url('./images/Images/queue-2.jpeg');
+  background: url("./images/Images/queue-2.jpeg");
 }
 .queue__3 {
-  background: url('./images/Images/queue-3.jpeg');
+  background: url("./images/Images/queue-3.jpeg");
 }
 .queue__songs__avatar {
   width: 2.5rem;
@@ -165,7 +165,7 @@ section.page__carousel {
   padding: 2rem 0px;
 }
 div.slide__1 {
-  background-image: url('./images/Images/carousel-1.jpeg');
+  background-image: url("./images/Images/carousel-1.jpeg");
   background-size: auto;
   background-repeat: no-repeat;
   height: 300px;
@@ -192,7 +192,7 @@ div.page__latest__release {
 .album__image {
   width: 6rem;
   height: 6rem;
-  background: url('./images/Images/latest-release-1.jpeg');
+  background: url("./images/Images/latest-release-1.jpeg");
   background-size: contain;
 }
 .album__title {
@@ -229,22 +229,22 @@ div.popular__artists {
   margin-right: 1rem;
 }
 .ed__sheeran {
-  background: url('./images/Images/popular-artist-1.jpeg');
+  background: url("./images/Images/popular-artist-1.jpeg");
 }
 .coldplay {
-  background: url('./images/Images/popular-artist-2.jpeg');
+  background: url("./images/Images/popular-artist-2.jpeg");
 }
 .zayn {
-  background: url('./images/Images/popular-artist-3.jpeg');
+  background: url("./images/Images/popular-artist-3.jpeg");
 }
 .charlie__puth {
-  background: url('./images/Images/popular-artist-4.jpeg');
+  background: url("./images/Images/popular-artist-4.jpeg");
 }
 .imagine__dragons {
-  background: url('./images/Images/popular-artist-5.jpeg');
+  background: url("./images/Images/popular-artist-5.jpeg");
 }
 .bruno__mars {
-  background: url('./images/Images/popular-artist-6.jpeg');
+  background: url("./images/Images/popular-artist-6.jpeg");
 }
 .artist__image {
   width: 10rem;
@@ -280,22 +280,22 @@ section.music__categories {
   justify-content: center;
 }
 .category__1 {
-  background: url('./images/Images/category-1.jpeg');
+  background: url("./images/Images/category-1.jpeg");
 }
 .category__2 {
-  background: url('./images/Images/category-2.jpeg');
+  background: url("./images/Images/category-2.jpeg");
 }
 .category__3 {
-  background: url('./images/Images/category-3.jpeg');
+  background: url("./images/Images/category-3.jpeg");
 }
 .category__4 {
-  background: url('./images/Images/category-4.jpeg');
+  background: url("./images/Images/category-4.jpeg");
 }
 .category__5 {
-  background: url('./images/Images/category-5.jpeg');
+  background: url("./images/Images/category-5.jpeg");
 }
 .category__6 {
-  background: url('./images/Images/category-6.jpeg');
+  background: url("./images/Images/category-6.jpeg");
 }
 div.music__categories {
   min-width: 6rem;
@@ -319,10 +319,10 @@ div.music__categories {
   margin: 1rem 0;
 }
 .party {
-  background: url('./images/Images/playlist-1.jpeg');
+  background: url("./images/Images/playlist-1.jpeg");
 }
 .electronic {
-  background: url('./images/Images/playlist-2.jpeg');
+  background: url("./images/Images/playlist-2.jpeg");
 }
 .roadtrip {
   background: url("./images/Images/playlist-3.jpeg");
@@ -353,28 +353,28 @@ div.latest__english {
   margin-right: 1rem;
 }
 .onism {
-  background: url('./images/Images/onism.jpeg');
+  background: url("./images/Images/onism.jpeg");
 }
 .onism-2 {
-  background: url('./images/Images/onism-2.jpeg');
+  background: url("./images/Images/onism-2.jpeg");
 }
 .onism-3 {
-  background: url('./images/Images/onism-3.jpeg');
+  background: url("./images/Images/onism-3.jpeg");
 }
 .onism-4 {
-  background: url('./images/Images/onism-4.jpeg');
+  background: url("./images/Images/onism-4.jpeg");
 }
 .bolly-1 {
-  background: url('./images/Images/bolly-1.jpeg');
+  background: url("./images/Images/bolly-1.jpeg");
 }
 .bolly-2 {
-  background: url('./images/Images/bolly-2.jpeg');
+  background: url("./images/Images/bolly-2.jpeg");
 }
 .bolly-3 {
-  background: url('./images/Images/bolly-3.jpeg');
+  background: url("./images/Images/bolly-3.jpeg");
 }
 .bolly-4 {
-  background: url('./images/Images/bolly-4.jpeg');
+  background: url("./images/Images/bolly-4.jpeg");
 }
 .track__cover {
   min-width: 10rem;
@@ -421,7 +421,7 @@ footer.page__player {
   text-transform: capitalize;
 }
 .track__image {
-  background: url('./images/Images/queue-2.jpeg');
+  background: url("./images/Images/queue-2.jpeg");
 }
 .player__current__track {
   width: 3.5rem;
