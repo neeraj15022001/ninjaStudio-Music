@@ -111,12 +111,63 @@ aside.page__sidebar {
 .sidebar__dropdown {
   font-size: small;
   color: cyan;
+  cursor: pointer;
+  width: 100px;
+  height: 31px;
+  position: relative;
+  user-select: none;
 }
-.queue__songs {
+.sidebar__dropdown > label {
+  color:aqua;
+  cursor: pointer;
+}
+#queue-dropdown {
+  background-color: white;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  transform: scale(0);
+  top:31px;
+  right: 70px;
+  transform-origin: top right;
+  user-select: none;
+  overflow: auto;
+}
+#queue-dropdown::-webkit-scrollbar {
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.sidebar__dropdown > input:checked~#queue-dropdown {
+  transform: scale(1);
+  width: 200px;
+  height: 100px;
+
+}
+/* .sidebar__dropdown:hover #queue-dropdown {
+  position: absolute;
+  top:40px;
+  right:70px;
+  width: 200px;
+  height: 100px;
+  transform: scale(1);;
+} */
+.dropdown__list {
+  list-style: none;
+}
+.dropdown__list > li {
+  text-align: center;
+  color: black;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  text-transform: capitalize;
+}
+  .queue__songs {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
+  padding:0 1rem;
 }
 .queue__songs__left {
   display: flex;
@@ -174,9 +225,15 @@ section.page__content {
 /* Latest Release section */
 div.page__latest__release {
   display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 1rem;
-  row-gap: 1rem;
+   grid-auto-columns: max-content;
+   grid-template-rows: 1fr 1fr;
+   width: 100%;
+   overflow-x: auto;
+   column-gap: 3rem;
+   row-gap: 1rem;
+}
+div.page__latest__release::-webkit-scrollbar {
+  display: none;
 }
 .section__title {
   text-transform: capitalize;
@@ -188,6 +245,12 @@ div.page__latest__release {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  grid-column:auto;
+  grid-row: 1;
+  position: relative;
+}
+.latest__release__album:nth-child(2n) {
+  grid-row: 2;
 }
 .album__image {
   width: 6rem;
@@ -216,7 +279,29 @@ div.page__latest__release {
   min-width: 7rem;
   padding: 0 1rem;
 }
-
+.album__duration > input:checked~#latest-release-dropdown-1 {
+  display: block;
+}
+#latest-release-dropdown-1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width:200px;
+  height:200px;
+  top: 50px;
+  right:0;
+}
+#latest-release-dropdown-1 > ul {
+  list-style: none;
+  color: black;
+}
+#latest-release-dropdown-1 > ul > li {
+  height:50px;
+  width:100%;
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
 /* Popular Artist */
 section.popular__artists {
   padding: 3rem 0;
