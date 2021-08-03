@@ -71,7 +71,7 @@ body {
   margin-right: 1rem;
 }
 .profile {
-  background: url('./images/Images/avatar-1.jpeg');
+  background: url("./images/Images/avatar-1.jpeg");
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -260,7 +260,7 @@ div.popular__artists::-webkit-scrollbar {
   cursor: pointer;
 }
 .artist__image:hover {
-  border:2px solid white;
+  border: 2px solid white;
   transform: scale(0.95);
 }
 .artist__name {
@@ -278,7 +278,7 @@ section.music__categories {
   justify-content: flex-start;
   overflow: auto;
 }
-section.music__categories::-webkit-scrollbar{
+section.music__categories::-webkit-scrollbar {
   display: none;
 }
 .stations__cover {
