@@ -8,15 +8,16 @@
     <meta name="theme-color" content="#2A2747" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./icons.css" />
+    <link rel="stylesheet" href="./dist/css/compressed/carousel.min.css" />
+    <link rel="icon" href="./favicon_io/favicon.ico" />
   </head>
   <body>
-    <script src="./main.js"></script>
     <!-- Navbar -->
     <nav class="page__nav">
       <div class="page__nav__brand">
         <div class="brand">
           <img src="./images/music-cd.png" alt="music-cd" width="50" />
-          <span>ninja<br />studio</span>
+          <span>ninja<br /><strong>studio</strong></span>
         </div>
         <div class="links">
           <a href="#favorites">favorites</a>
@@ -100,11 +101,46 @@
             <i class="icons heart"></i>
           </div>
         </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>05</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>06</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
       </aside>
       <section class="page__content">
         <!-- Carousel Section -->
-        <section class="page__carousel">
-          <div class="slide__1"></div>
+        <section class="page__slider">
+          <section class="page__carousel">
+            <div class="carousel__slide slide__1" id="slide-1"></div>
+            <div class="carousel__slide slide__2" id="slide-2"></div>
+            <div class="carousel__slide slide__3" id="slide-3"></div>
+            <div class="carousel__slide slide__4" id="slide-4"></div>
+          </section>
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
         </section>
         <!-- Latest Release Section -->
         <section class="page__latest__release">

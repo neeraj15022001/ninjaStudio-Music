@@ -45,6 +45,14 @@ body {
   color: white;
   text-transform: capitalize;
   margin-left: 2rem;
+  border-bottom: 1px solid transparent;
+  transform-origin: center center;
+  transition: all 0.3s ease;
+}
+.links > a:hover {
+  border-bottom: 1px solid white;
+  transform: translateY(-2px);
+  font-weight: bold;
 }
 .search {
   background-color: var(--themeGlass);
@@ -63,10 +71,12 @@ body {
   margin-right: 1rem;
 }
 .profile {
-  background-color: white;
+  background: url("./images/Images/avatar-1.jpeg");
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* Body  */
@@ -133,6 +143,7 @@ aside.page__sidebar {
   margin-right: 1rem;
   background-size: contain;
   background-repeat: no-repeat;
+  filter: brightness(150%) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
 }
 .queue__songs__songs__details {
   display: flex;
@@ -158,17 +169,6 @@ section.page__content {
   left: 0;
   padding: 2rem;
   overflow: auto;
-}
-
-/* Carousel */
-section.page__carousel {
-  padding: 2rem 0px;
-}
-div.slide__1 {
-  background-image: url("./images/Images/carousel-1.jpeg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  height: 300px;
 }
 
 /* Latest Release section */
@@ -225,6 +225,9 @@ div.popular__artists {
   display: flex;
   overflow: auto;
 }
+div.popular__artists::-webkit-scrollbar {
+  display: none;
+}
 .artist__details {
   margin-right: 1rem;
 }
@@ -252,8 +255,14 @@ div.popular__artists {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  transform-origin: center center;
+  cursor: pointer;
 }
-
+.artist__image:hover {
+  border: 2px solid white;
+  transform: scale(0.95);
+}
 .artist__name {
   text-transform: capitalize;
   text-align: center;
@@ -268,6 +277,9 @@ section.music__categories {
   align-items: center;
   justify-content: flex-start;
   overflow: auto;
+}
+section.music__categories::-webkit-scrollbar {
+  display: none;
 }
 .stations__cover {
   background-color: orangered;
@@ -308,8 +320,12 @@ div.music__categories {
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-
+div.music__categories:hover {
+  transform: translateY(-5px) scale(1.1);
+}
 /* Playlist Section */
 .playlists {
   display: flex;
@@ -317,6 +333,9 @@ div.music__categories {
   justify-content: flex-start;
   overflow: auto;
   margin: 1rem 0;
+}
+.playlists::-webkit-scrollbar {
+  display: none;
 }
 .party {
   background: url("./images/Images/playlist-1.jpeg");
@@ -339,8 +358,13 @@ div.music__categories {
   font-weight: bold;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
-
+.playlists__cover:hover {
+  filter: blur(2px) brightness(110%);
+  border-radius: 10px;
+}
 /* Latest English */
 div.latest__english {
   display: flex;
@@ -348,6 +372,9 @@ div.latest__english {
   justify-content: flex-start;
   overflow: auto;
   margin-bottom: 1.5rem;
+}
+div.latest__english::-webkit-scrollbar {
+  display: none;
 }
 .latest__english__song {
   margin-right: 1rem;
@@ -381,6 +408,13 @@ div.latest__english {
   min-height: 10rem;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  transform-origin: center center;
+}
+.track__cover:hover {
+  filter: blur(2px) brightness(110%);
+  border-radius: 10px;
 }
 .track__details {
   text-transform: capitalize;
@@ -397,6 +431,9 @@ div.latest__hindi {
   align-items: center;
   justify-content: flex-start;
   overflow: auto;
+}
+div.latest__hindi::-webkit-scrollbar {
+  display: none;
 }
 .latest__hindi__song {
   margin-right: 1rem;
