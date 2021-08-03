@@ -118,7 +118,7 @@ aside.page__sidebar {
   user-select: none;
 }
 .sidebar__dropdown > label {
-  color:aqua;
+  color: aqua;
   cursor: pointer;
 }
 #queue-dropdown {
@@ -126,7 +126,7 @@ aside.page__sidebar {
   position: absolute;
   transition: 0.2s ease-in-out;
   transform: scale(0);
-  top:31px;
+  top: 31px;
   right: 70px;
   transform-origin: top right;
   user-select: none;
@@ -138,11 +138,10 @@ aside.page__sidebar {
 input[type="checkbox"] {
   display: none;
 }
-.sidebar__dropdown > input:checked~#queue-dropdown {
+.sidebar__dropdown > input:checked ~ #queue-dropdown {
   transform: scale(1);
   width: 200px;
   height: 100px;
-
 }
 /* .sidebar__dropdown:hover #queue-dropdown {
   position: absolute;
@@ -162,12 +161,12 @@ input[type="checkbox"] {
   border-bottom: 1px solid black;
   text-transform: capitalize;
 }
-  .queue__songs {
+.queue__songs {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
-  padding:0 1rem;
+  padding: 0 1rem;
 }
 .queue__songs__left {
   display: flex;
@@ -225,12 +224,12 @@ section.page__content {
 /* Latest Release section */
 div.page__latest__release {
   display: grid;
-   grid-auto-columns: max-content;
-   grid-template-rows: 1fr 1fr;
-   width: 100%;
-   overflow-x: auto;
-   column-gap: 3rem;
-   row-gap: 1rem;
+  grid-auto-columns: max-content;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  overflow-x: auto;
+  column-gap: 3rem;
+  row-gap: 1rem;
 }
 div.page__latest__release::-webkit-scrollbar {
   display: none;
@@ -245,7 +244,7 @@ div.page__latest__release::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  grid-column:auto;
+  grid-column: auto;
   grid-row: 1;
   position: relative;
 }
@@ -279,25 +278,25 @@ div.page__latest__release::-webkit-scrollbar {
   min-width: 7rem;
   padding: 0 1rem;
 }
-.album__duration > input:checked~#latest-release-dropdown-1 {
+.album__duration > input:checked ~ #latest-release-dropdown-1 {
   display: block;
 }
 #latest-release-dropdown-1 {
   display: none;
   position: absolute;
   background-color: white;
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
   top: 50px;
-  right:0;
+  right: 0;
 }
 #latest-release-dropdown-1 > ul {
   list-style: none;
   color: black;
 }
 #latest-release-dropdown-1 > ul > li {
-  height:50px;
-  width:100%;
+  height: 50px;
+  width: 100%;
   border-bottom: 1px solid black;
   text-align: center;
   text-transform: capitalize;
