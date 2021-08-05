@@ -13,8 +13,8 @@
   border-radius: 50%;
   margin: 0 0.1rem;
 }
-.page__carousel::-webkit-scrollbar {
-  display: none;
+.page__slider > a:active {
+  background-color: green;
 }
 .page__carousel {
   padding: 2rem 0px;

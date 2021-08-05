@@ -343,6 +343,9 @@ section.page__content {
 }
 
 /* Latest Release section */
+section.page__latest__release {
+  position: relative;
+}
 div.page__latest__release {
   display: -ms-grid;
   display: grid;
@@ -467,6 +470,7 @@ div.page__latest__release {
 /* Popular Artist */
 section.popular__artists {
   padding: 3rem 0;
+  position: relative;
 }
 div.popular__artists {
   display: -webkit-box;
@@ -536,6 +540,7 @@ section.music__categories {
   -ms-flex-pack: start;
   justify-content: flex-start;
   overflow: auto;
+  position: relative;
 }
 
 .stations__cover {
@@ -603,6 +608,9 @@ div.music__categories:hover {
   transform: translateY(-5px) scale(1.1);
 }
 /* Playlist Section */
+section.playlists {
+  position: relative;
+}
 .playlists {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -679,6 +687,9 @@ div.music__categories:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 /* Latest English */
+section.latest__english {
+  position: relative;
+}
 div.latest__english {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -772,6 +783,9 @@ div.latest__english {
   color: silver;
 }
 /* Latest Hindi */
+section.latest__hindi {
+  position: relative;
+}
 div.latest__hindi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -783,6 +797,7 @@ div.latest__hindi {
   -ms-flex-pack: start;
   justify-content: flex-start;
   overflow: auto;
+
 }
 
 .latest__hindi__song {
@@ -910,4 +925,33 @@ footer.page__player {
 }
 .right__icon {
   margin: 0.3rem;
+}
+
+
+/* Previous and Next Button */
+.next__button, .prev__button {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  position: absolute;
+  border: none;
+  top: 50%;
+  font-size: large;
+  transform: translateY(-50%);
+  box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.5);
+}
+.next__button {
+  right : 0rem;
+}
+.prev__button {
+  left : 0rem;
+}
+.next__button::before {
+  content: ">";
+}
+.prev__button::before {
+  content: "<";
 }
