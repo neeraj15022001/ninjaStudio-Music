@@ -42,6 +42,7 @@
 }
 .three-dots {
   background: url("./images/Icons/three-dots.svg");
+  cursor: pointer;
 }
 .volume-up {
   background: url("./images/Icons/volume-up.svg");
