@@ -30,16 +30,16 @@
   -webkit-overflow-scrolling: touch;
 }
 .slide__1 {
-  background-image: url("/images/Images/carousel-1.jpeg");
+  background-image: url("../../../images/Images/carousel-1.jpeg");
 }
 .slide__2 {
-  background-image: url("/images/Images/carousel-2.gif");
+  background-image: url("../../../images/Images/carousel-2.gif");
 }
 .slide__3 {
-  background-image: url("/images/Images/carousel-3.png");
+  background-image: url("../../../images/Images/carousel-3.png");
 }
 .slide__4 {
-  background-image: url("/images/Images/carousel-4.gif");
+  background-image: url("../../../images/Images/carousel-4.gif");
 }
 .carousel__slide {
   background-size: cover;
