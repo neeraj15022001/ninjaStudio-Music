@@ -797,7 +797,6 @@ div.latest__hindi {
   -ms-flex-pack: start;
   justify-content: flex-start;
   overflow: auto;
-
 }
 
 .latest__hindi__song {
@@ -927,9 +926,9 @@ footer.page__player {
   margin: 0.3rem;
 }
 
-
 /* Previous and Next Button */
-.next__button, .prev__button {
+.next__button,
+.prev__button {
   display: inline-block;
   width: 2rem;
   height: 2rem;
@@ -941,13 +940,13 @@ footer.page__player {
   top: 50%;
   font-size: large;
   transform: translateY(-50%);
-  box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
 }
 .next__button {
-  right : 0rem;
+  right: 0rem;
 }
 .prev__button {
-  left : 0rem;
+  left: 0rem;
 }
 .next__button::before {
   content: ">";
