@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 :root {
   --themeColor: #2a2747;
@@ -280,6 +273,8 @@ input[type="checkbox"] {
   -webkit-filter: brightness(150%)
     drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
   filter: brightness(150%) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 .queue__songs__avatar::before {
@@ -287,15 +282,25 @@ input[type="checkbox"] {
   color: transparent;
   background-color: transparent;
   display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 5px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .queue__songs__avatar:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 .queue__songs__avatar:hover::before {
@@ -351,6 +356,8 @@ div.page__latest__release {
   column-gap: 3rem;
   width: 100%;
   height: 350px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   overflow-y: hidden;
 }
@@ -391,11 +398,19 @@ div.page__latest__release {
   color: transparent;
   background-color: transparent;
   display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 6rem;
   width: 6rem;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .album__image:hover::before {
@@ -639,13 +654,21 @@ div.music__categories:hover {
   color: transparent;
   background-color: transparent;
   display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   min-height: 10rem;
   min-width: 15rem;
   border-radius: 10px;
   font-size: xx-large;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .playlists__cover:hover {
@@ -715,13 +738,21 @@ div.latest__english {
   color: transparent;
   background-color: transparent;
   display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 10rem;
   width: 10rem;
   border-radius: 10px;
   font-size: xx-large;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .track__cover:hover {
