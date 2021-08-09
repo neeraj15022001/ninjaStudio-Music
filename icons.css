@@ -3,6 +3,7 @@
   height: 1rem;
   padding: 0.3rem;
   display: inline-block;
+  background-repeat: no-repeat;
 }
 .arrow-repeat {
   background: url("./images/Icons/arrow-repeat.svg");
@@ -15,6 +16,10 @@
 }
 .heart {
   background: url("./images/Icons/heart.svg");
+  transition: 0.3s ease-in-out;
+}
+.heart:hover {
+  transform: scale(1.2);
 }
 .laptop {
   background: url("./images/Icons/laptop.svg");
