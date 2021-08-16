@@ -478,7 +478,10 @@ div.popular__artists {
   display: flex;
   overflow: auto;
 }
-
+div.popular__artists > a {
+  text-decoration: none;
+  color: white;
+}
 .artist__details {
   margin-right: 1rem;
 }
@@ -944,9 +947,11 @@ footer.page__player {
 }
 .next__button {
   right: 0rem;
+  z-index: 1000;
 }
 .prev__button {
   left: 0rem;
+  z-index: 1000;
 }
 .next__button::before {
   content: ">";
