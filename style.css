@@ -467,7 +467,7 @@ div.page__latest__release {
   text-align: center;
   text-transform: capitalize;
 }
-/* Popular Artist */
+/* r Artist */
 section.popular__artists {
   padding: 3rem 0;
   position: relative;
@@ -823,6 +823,7 @@ footer.page__player {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 1rem;
+  z-index: 1001;
 }
 .left__section {
   display: -webkit-box;
