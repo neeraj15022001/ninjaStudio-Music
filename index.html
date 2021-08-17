@@ -15,10 +15,12 @@
     <!-- Navbar -->
     <nav class="page__nav">
       <div class="page__nav__brand">
-        <div class="brand">
-          <img src="./images/music-cd.png" alt="music-cd" width="50" />
-          <span>ninja<br /><strong>studio</strong></span>
-        </div>
+        <a href="./index.html" style="text-decoration: none;color: white;">
+          <div class="brand">
+            <img src="./images/music-cd.png" alt="music-cd" width="50" />
+            <span>ninja<br /><strong>studio</strong></span>
+          </div>
+        </a>
         <div class="links">
           <a href="#favorites">favorites</a>
         </div>
@@ -1103,7 +1105,7 @@
           <div class="middle__upper">
             <i class="icons shuffle"></i>
             <i class="icons skip-start-fill"></i>
-            <i class="icons play-circle play__button"></i>
+            <i class="icons play-circle play__button" style="transform: scale(1.5);"></i>
             <i class="icons skip-end-fill"></i>
             <i class="icons arrow-repeat"></i>
           </div>
@@ -1119,6 +1121,26 @@
           <i class="icons volume-up right__icon"></i>
           <input type="range" name="volume-controller" />
           <i class="icons arrows-fullscreen right__icon"></i>
+        </div>
+      </footer>
+
+      <!-- Mobile Section Footer -->
+      <footer class="mobile__page__player">
+        <div class="mobile__seeker">
+          <progress value="50" max="100%"></progress>
+        </div>
+        <div class="mobile__page__player">
+          <div class="page__player__content">
+            <div class="page__player__track track__image"></div>
+            <div class="page__player__details">
+              <p class="page__player__details__track">Imagine</p>
+              <p class="page__player__details__artist">John lenon</p>
+            </div>
+          </div>
+          <div class="page__player__controls">
+            <i class="icons play-circle play__button" style="transform: scale(2);"></i>
+            <i class="icons volume-up right__icon" style="margin: 0; margin-left:2rem; transform: scale(1.5);"></i>
+          </div>
         </div>
       </footer>
     </section>

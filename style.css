@@ -960,3 +960,112 @@ footer.page__player {
 .prev__button::before {
   content: "<";
 }
+footer.mobile__page__player {
+  display: none;
+  height: 6rem;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+  background-color: var(--themeGray);
+  z-index: 1001;
+}
+div.mobile__page__player {
+  height: 100%;
+}
+div.mobile__seeker  {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 0.5rem;
+  position: relative;
+}
+div.mobile__seeker > progress {
+  /* width: 100%; */
+  height: 0.3rem;
+  position: absolute;
+  top:0;
+  width: 50%;
+  background-color: green;
+
+}
+div.page__player__content {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3.5rem;
+}
+div.page__player__track {
+  width:3.5rem;
+  height:3.5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.page__player__details {
+  font-size: small;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  padding: 0 0.5rem;
+}
+div.page__player__details > p {
+  padding: 0;
+  margin: 0;
+}
+p.page__player__details__track {
+  font-size: large !important;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+  aside.page__sidebar {
+    width: 0%;
+    display: none;
+  }
+  section.page__content {
+    width: 100%;
+  }
+  .search {
+    display: none;
+  }
+  footer.page__player {
+    display: none;  
+  }
+  footer.mobile__page__player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  div.mobile__page__player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  /* Artists Page */
+  aside.artist__page {
+    display: none !important;
+    width: 0 !important;
+  }
+  section.parent__wrapper {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 0;
+  }
+  .hero__card {
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: unset;
+    height: auto !important;
+  }
+  .artist__songs__card {
+    height: auto !important;
+    overflow: none;
+    margin-bottom: 2rem;
+  }
+}
