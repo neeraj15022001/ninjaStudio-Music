@@ -960,6 +960,7 @@ footer.page__player {
 .prev__button::before {
   content: "<";
 }
+/* Mobile PLayer */
 footer.mobile__page__player {
   display: none;
   height: 6rem;
@@ -1020,7 +1021,7 @@ p.page__player__details__track {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   aside.page__sidebar {
     width: 0%;
     display: none;
@@ -1065,6 +1066,6 @@ p.page__player__details__track {
   .artist__songs__card {
     height: auto !important;
     overflow: none;
-    margin-bottom: 2rem;
+    margin-bottom: 7rem;
   }
 }
