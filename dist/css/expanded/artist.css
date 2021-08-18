@@ -1,7 +1,7 @@
 .parent__wrapper {
   padding: 32px 64px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,8 +14,8 @@
 
 .flex-none {
   -webkit-box-flex: 0 !important;
-      -ms-flex: none !important;
-          flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
 }
 
 .hero__card {
@@ -24,11 +24,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: var(--themeDarkBg);
   margin-bottom: 16px;
   overflow: none;
@@ -36,11 +36,11 @@
 
 .hero__card__cover {
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   background: url("../../../images/Images/popular-artist-2.jpeg") no-repeat;
   -webkit-box-shadow: 0px 0px 30px 5px var(--themeDarkBg) inset;
-          box-shadow: 0px 0px 30px 5px var(--themeDarkBg) inset;
+  box-shadow: 0px 0px 30px 5px var(--themeDarkBg) inset;
   background-size: cover;
   background-position: center;
   min-height: 350px;
@@ -60,11 +60,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .hero__card__artist {
@@ -93,7 +93,13 @@
   padding: 4px 28px;
   text-transform: capitalize;
   color: white;
-  background: -webkit-gradient(linear, left top, right top, from(slateblue), to(purple));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(slateblue),
+    to(purple)
+  );
   background: linear-gradient(to right, slateblue, purple);
   border: none;
   font-weight: normal;
@@ -153,8 +159,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   overflow: auto;
   height: 200px;
 }
@@ -166,7 +172,7 @@ aside {
 .similar__artist {
   height: 50%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-bottom: 32px;
   margin-bottom: 32px;
 }
@@ -184,11 +190,11 @@ aside {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .heading__title {
@@ -216,14 +222,14 @@ aside {
   .hero__card__details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .hero__card__subscription {
     display: block;
