@@ -152,6 +152,7 @@ aside.page__sidebar {
   bottom: 5rem;
   overflow: auto;
   padding: 0.7rem;
+  user-select: none;
 }
 .page__sidebar__topbar {
   display: -webkit-box;
@@ -276,6 +277,7 @@ input[type="checkbox"] {
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 .queue__songs__avatar::before {
   content: ">";
@@ -945,6 +947,7 @@ footer.page__player {
   font-size: large;
   transform: translateY(-50%);
   box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .next__button {
   right: 0rem;
